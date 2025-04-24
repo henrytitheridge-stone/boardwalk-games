@@ -100,12 +100,17 @@ h2 {
     transition: color 0.3s ease-in-out;
 }
 
+/* Remove blue underline from facebook icon */
 #contact a {
     text-decoration: none;
 }
 
 #contact .social-links i:hover {
     color: var(--secondary-color);
+}
+
+#contact .table-dark * {
+    background-color: transparent;
 }
 
 /* grid visualisation CSS for testing */
